@@ -80,7 +80,7 @@ end
 
 Securing Cisco Switch dataplance traffic with PublicKEY:
 config t
-ip domain-name keykeymo
+ip domain-name Cisc0123Cisc0123
 crypto key generate rsa modulus 1024
 ip ssh version 2
 end

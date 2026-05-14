@@ -93,7 +93,7 @@ Trunk Ports: switch to switch:
 TAAS/BABA:
 config t
 Int Range fa0/10-12
- shutdown
+! shutdown
  no shutdown
  switchport trunk Encap Dot1Q
  switchport mode trunk
@@ -189,10 +189,10 @@ config t
 ip routing
 ip dhcp pool CAMERA6
 host 10.11.50.6 255.255.255.0
-client-identifier abcd.1234.cafb
+client-identifier 001a.0711.5620
 ip dhcp pool CAMERA8
 host 10.11.50.8 255.255.255.0
-client-identifier abcd.1234.cafb
+client-identifier 001a.0709.c17a
 end
 show ip dhcp binding
 

@@ -4,13 +4,13 @@ IAM engr (identity access management)
 DevOps engr (powershell)
 backup engr
 
-ping dpwh.gov.ph - gets the IPaddress
+ping www.dpwh.gov.ph - gets the IPaddress
 ping -4 facebook.com - forces an IPv4address
 ping 8.8.8.8
 ipconfig
 
 telnet (IPv4address) (port no.)
-nmap -v (IPv4address)
-nmap -sP (IPv4address)/(bits)
+nmap -v 45.60.157.243
+nmap -sP 45.60.157.0/32
 
 certutil -hashfile CERTIFICATEWEBSITE.ps1

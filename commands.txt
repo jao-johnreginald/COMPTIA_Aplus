@@ -4,10 +4,12 @@ IAM engr (identity access management)
 DevOps engr (powershell)
 backup engr
 
-ping www.dpwh.gov.ph - gets the IPaddress
-ping -4 facebook.com - forces an IPv4address
-ping 8.8.8.8
-ipconfig
+// Checks if a host is reachable, you can ping a website or IP address
+ping www.dpwh.gov.ph // If you ping a web server, you will see the IP address
+ping 8.8.8.8 // You can also ping a DNS server
+
+ping -4 facebook.com // Forces an IPv4address
+ipconfig // Shows the IP address, subnet mask, and default gateway of all network adapters
 
 telnet (IPv4address) (port no.)
 nmap -v 45.60.157.243

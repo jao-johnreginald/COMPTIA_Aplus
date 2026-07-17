@@ -4,6 +4,8 @@ IAM engr (identity access management)
 DevOps engr (powershell)
 backup engr
 
+cls // Clear screen
+
 // Checks if a host is reachable, you can ping a website or IP address
 ping www.dpwh.gov.ph // If you ping a web server, you will see the IP address
 ping 8.8.8.8 // You can also ping a DNS server

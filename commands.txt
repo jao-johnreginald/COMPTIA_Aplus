@@ -10,6 +10,7 @@ ping 8.8.8.8 // You can also ping a DNS server
 
 ping -4 facebook.com // Forces an IPv4address
 ipconfig // Shows the IP address, subnet mask, and default gateway of all network adapters
+route print
 
 telnet (IPv4address) (port no.)
 nmap -v 45.60.157.243
